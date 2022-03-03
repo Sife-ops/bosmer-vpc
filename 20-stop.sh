@@ -4,7 +4,7 @@ pushd ./nginx-certbot
 docker-compose down
 popd
 
-pushd ./constellations
+pushd ./bosmer
 docker-compose down
 popd
 

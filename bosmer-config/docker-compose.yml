@@ -1,0 +1,11 @@
+services:
+  backend:
+    build: ./backend
+    environment:
+      - SECRET_TOKEN=${SECRET_TOKEN}
+      - VITE_PROD_URL=${VITE_PROD_URL}
+  frontend:
+    depends_on:
+      - backend
+    build: ./frontend
+

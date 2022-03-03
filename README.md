@@ -21,8 +21,8 @@ ssh-copy-id <user>@<ipv4>
 ssh <user>@<ipv4>
 
 # clone stack
-git clone --recurse-submodules https://github.com/Sife-ops/constellations-vpc
-cd constellations-vpc
+git clone --recurse-submodules https://github.com/Sife-ops/bosmer-vpc
+cd bosmer-vpc
 cp .env.example .env 
 
 # generate token secrets

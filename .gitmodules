@@ -1,0 +1,6 @@
+[submodule "bosmer"]
+	path = bosmer
+	url = https://github.com/Sife-ops/bosmer
+[submodule "nginx-certbot"]
+	path = nginx-certbot
+	url = https://github.com/Sife-ops/nginx-certbot

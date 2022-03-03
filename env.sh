@@ -13,4 +13,5 @@ if [ -z $CERTBOT_EMAIL ] ; then err ; exit 1 ; fi
 
 if [ -z $SECRET_TOKEN ] ; then err ; exit 1 ; fi
 if [ -z $VITE_PROD_URL ] ; then err ; exit 1 ; fi
+if [ -z $YF_URL ] ; then err ; exit 1 ; fi
 

@@ -1,4 +1,4 @@
-FROM node:16.13-alpine
+FROM node:17.6-alpine
 RUN apk add --update tini
 WORKDIR /app
 COPY package.json .
